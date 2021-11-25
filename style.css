@@ -1,0 +1,158 @@
+html {
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    font-family: helvetica;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    background-color: black;
+
+    
+    
+}
+.logo {
+    height: 50px;
+    position: fixed;
+    left: 10px;
+}
+
+nav a {
+    padding: 15px;
+}
+a::before {
+    color: white;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: purple;
+}
+
+/*------------------------HERO CONTENT-----------------------*/
+.hero-container {
+    background-image: url(Images/img-mission-background.jpeg);
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    color: seashell;
+    margin-top: 100px;
+}
+.hero-text {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    top: 40%;
+    background-color: black;
+    line-height: 5px;
+    align-items: center;
+    opacity: 0.9;
+
+
+    
+}
+
+/*------------------------FEATURED TEAS--------------------------*/
+
+.featured-tea-container {  
+    height: auto;
+    width: 1000px;
+    margin-bottom: 100px;
+    
+}
+.featured-tea-header-container {
+    text-align: center;
+}
+.tea-type-container {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.tea-type {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+
+
+/*----------------------------LOCATIONS---------------------------*/
+
+.locations {
+    background-image: url(Images/img-locations-background.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.location-blocks {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.locations-header {
+   margin-top: 100px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+.downtown-container {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+
+}
+.east-bayside-container {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0.9;
+
+    
+}
+.oakdale-container{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+
+}
+footer {
+    height: 200px;
+    margin-top: 50px;
+}
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+}
